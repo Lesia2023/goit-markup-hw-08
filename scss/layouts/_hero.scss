@@ -1,0 +1,152 @@
+.list-services {
+
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.services {
+    width: 270px;
+}
+
+.comanda {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list-comanda {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--prinory-text-color);
+    margin-bottom: 10px;
+   
+}
+
+.services::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+}
+
+.details::before {
+    background-image: url('../image/antenna\ 1.svg');
+}
+
+.punctuality::before {
+    background-image: url('../image/clock\ 1.svg');
+}
+
+.planning::before {
+    background-image: url('../image/diagram\ 1.svg');
+}
+
+.technologies::before {
+    background-image: url('../image/astronaut\ 1.svg');
+}
+
+.men-title.busines {
+
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url('../image-portfolio/fonn.jpg');
+    background-color: #2F303A;
+    height: 600px;
+    max-width: 1600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.list-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 16px;
+
+}
+.customers-list {
+    max-width: 1600px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+
+}
+
+
+.customer {
+    display: flex;
+}
+
+
+
+.foto-work {
+    width: 270px;
+
+
+}
+
+.list-work {
+    position: relative;
+}
+
+.list-work__foto {
+    width: 370px;
+    position: relative;
+
+}
+
+
+
+
+.product {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 370px;
+    height: 70px;
+    opacity: 1;
+    background-color: rgba(47, 48, 58, 0.80);
+
+
+    
+
+}
+
+.product__text {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

@@ -1,0 +1,52 @@
+footer {
+
+    background-color: var(--title-backround-color);
+    color: var(--tetriory-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.port-footer {
+    color: var(--tetriory-color);
+}
+
+.adress-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-accession {
+
+    list-style: none;
+    display: block;
+    margin-right: 70px;
+
+}
+
+.footer-accession-now {
+
+    list-style: none;
+    display: block;
+
+}
+
+
+.accession {
+    color: #FFF;
+   
+    font-weight: 700;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    
+    margin-bottom: 20px;
+}
